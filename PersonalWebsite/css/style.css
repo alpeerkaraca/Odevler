@@ -1,0 +1,201 @@
+:root {
+    --background-color: #1B1A55;
+    --text-color: #9290C3;
+    --primary-color: #FF6B6B;
+    --secondary-color: #FFD166;
+    --tertiary-color: #06D6A0;
+}
+
+
+header {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+
+}
+
+.nav-item {
+    font-size: 1.25rem !important;
+}
+
+.about-text {
+    color: var(--text-color) !important;
+    font-size: 1.25rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.general-title {
+    color: var(--text-color) !important;
+    font-size: 3rem !important;
+    padding-bottom: 1rem !important;
+}
+
+social-medias-area {
+    color: var(--text-color) !important;
+    font-size: 3rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.social-media {
+    color: var(--text-color);
+    font-size: 3rem !important;
+
+    transition: all 0.3s ease-in-out !important;
+    user-select: none;
+}
+
+.resume {
+    transition: all 0.3s ease-in-out !important;
+}
+.file{
+    transition: all 0.3s ease-in-out !important;
+
+}
+
+.linkedin {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.instagram {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.github {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.envelope {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.telegram {
+    transition: all 0.3s ease-in-out !important;
+}
+
+.file:hover {
+    color: #ff6b6b !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.linkedin:hover {
+    color: #0077b5 !important;
+
+    transition: all 0.3s ease-in-out !important;
+
+}
+
+.resume:hover {
+    color: #e74885 !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+
+
+.github:hover {
+    color: #2b3137 !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.instagram:hover {
+    color: #E1306C !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.envelope:hover {
+    color: #D44638 !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+.telegram:hover {
+    color: #0088cc !important;
+    transition: all 0.3s ease-in-out !important;
+}
+
+
+
+
+
+#about {
+    padding-top: 2%;
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+    height: 100vh !important;
+}
+
+#projects {
+    background-color: #bebef3 !important;
+
+
+    h1 {
+        color: white !important;
+        text-align: center !important;
+        padding-top: 2% !important;
+        padding-bottom: 2% !important;
+    }
+
+}
+
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+
+}
+
+
+
+
+.project-card {
+    box-sizing: border-box;
+    gap: 2rem;
+    transition: all 0.3s ease-in-out;
+
+    overflow: hidden !important;
+    max-width: 25rem;
+    width: 50%;
+    border-radius: 0.8rem;
+    border: 0.5rem solid;
+
+
+    img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 3/2;
+        object-fit: cover;
+        outline: 0.5rem solid;
+    }
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 1rem 0.5rem;
+}
+
+.project-text {
+    padding: 1rem;
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
+    font-size: 1.25rem !important;
+    padding: min(2rem, 5vw) min(2rem, 5vw), min(2.5rem 5vw);
+}
+
+.project-text a {
+    display: inline-block;
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background: #535C91;
+    border-radius: 0.6rem;
+    font-weight: 700;
+    border: 0.35rem solid;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-text a:hover {
+    background: #6C75A3;
+    transition: all 0.3s ease-in-out;
+}
