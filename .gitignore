@@ -3,3 +3,6 @@
 /Servers
 /Servlet
 *.pdf
+/.settings
+/SpringMVCCRUDSimple/.settings
+/SpringMVCCRUDSimple/apache-tomcat-9.0.86

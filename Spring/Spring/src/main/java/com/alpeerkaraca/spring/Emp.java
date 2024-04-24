@@ -14,11 +14,11 @@ public class Emp {
         this.empID = empID;
     }
 
-    public float getSalary() {
+    public float getEmpSalary() {
         return salary;
     }
 
-    public void setSalary(float salary) {
+    public void setEmpSalary(float salary) {
         this.salary = salary;
     }
 
